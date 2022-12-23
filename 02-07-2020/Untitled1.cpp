@@ -14,7 +14,6 @@ int main(){
 	struct x mhs = {24, 34};
 	scanf("%s", mhs.name);
 	abc(&mhs);
-	printf("%s", mhs.name);
 	
 	return 0;
 }
